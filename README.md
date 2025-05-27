@@ -25,6 +25,16 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
 
+To measure the metrics of caption tasks, please install the following three packages:
+
+```bash
+pip install nltk==3.9.1
+pip install pycocotools==2.0.8
+pip install pycocoevalcap==1.2
+```
+We recommend replacing the eval.py file under that path `/envs/coin/lib/python3.10/site-packages/pycocoevalcap/` in your environment with the eval.py file that we have provided in the repository to avoid unwanted error reporting and time overhead.
+
+
 Technical issues can be reported and addressed through the official GitHub issue trackers for both projects: [CoIN](https://github.com/zackschen/CoIN) and [LLaVA](https://github.com/haotian-liu/LLaVA).
 
 ## UCIT Benchmark
