@@ -6,7 +6,7 @@ This repo is the official implementation of ACL 2025 paper: **[HiDe-LLaVA: Hiera
 >
 > $\text{Haiyang Guo}^\*$, $\text{Fanhu Zeng}^\*$, Ziwei Xiang, Fei Zhu, Da-Han Wang, Xu-Yao Zhang, Cheng-Lin Liu
 
-![framework](figure/framework.pdf)
+![framework](figure/framework.png)
 
 ## Abstract
 
