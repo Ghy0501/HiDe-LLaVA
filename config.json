@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "/mnt/shijiema/llava_new/llava-v1.5-7b/",
+  "_name_or_path": "/your_path/llava-v1.5-7b/",
   "architectures": [
     "LlavaLlamaForCausalLM"
   ],
@@ -22,8 +22,8 @@
   "mm_vision_select_feature": "patch",
   "mm_vision_select_layer": -2,
   "mm_text_select_layer": -1, 
-  "mm_vision_tower": "/mnt/ShareDB_6TB/models/clip-vit-large-patch14-336/",
-  "mm_text_tower": "/mnt/ShareDB_6TB/models/clip-vit-large-patch14-336",
+  "mm_vision_tower": "/your_path/clip-vit-large-patch14-336/",
+  "mm_text_tower": "/your_path/clip-vit-large-patch14-336",
   "model_type": "llava",
   "num_attention_heads": 32,
   "num_hidden_layers": 32,
