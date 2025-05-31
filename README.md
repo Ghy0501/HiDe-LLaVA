@@ -1,10 +1,12 @@
 # HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model (ACL 2025 Main)
 
+[![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/HaiyangGuo/UCIT)  [![📑 Paper (arXiv:2501.06598)](https://img.shields.io/badge/arXiv-2503.12941-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12941)
+
 This repo is the official implementation of ACL 2025 paper: **[HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model](https://arxiv.org/abs/2503.12941)**
 
 > HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model
 >
-> $\text{Haiyang Guo}^\*$, $\text{Fanhu Zeng}^\*$, Ziwei Xiang, Fei Zhu, Da-Han Wang, Xu-Yao Zhang, Cheng-Lin Liu
+> Haiyang Guo*, Fanhu Zeng*, Ziwei Xiang, Fei Zhu, Da-Han Wang, Xu-Yao Zhang, Cheng-Lin Liu
 
 ![framework](figure/framework.png)
 
