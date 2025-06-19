@@ -10,6 +10,10 @@ This repo is the official implementation of ACL 2025 paper: **[HiDe-LLaVA: Hiera
 
 ![framework](figure/framework.png)
 
+## News
+
+- **2025.06**: Check out our new survey: "[A Comprehensive Survey on Continual Learning in Generative Models](https://arxiv.org/pdf/2506.13045)". We provide a systematic review of continual learning across mainstream generative models—including LLMs, MLLMs, Vision-Language Action Models, and Diffusion Models. Feel free to cite or open pull requests!
+
 ## Abstract
 
 Instruction tuning is widely used to enhance a pre-trained Multimodal Large Language Model (MLLM) to understand and follow human instructions by training it on a curated set of task-specific dataset. However, it is infeasible to collect all possible instruction datasets simultaneously in real-world scenarios. Thus, enabling MLLM with continual instruction tuning is essential for maintaining their adaptability. However, existing methods often trade off memory efficiency for performance gains, significantly compromising overall efficiency. In this paper, we propose a task-specific expansion and task-general fusion framework based on the variations in Centered Kernel Alignment (CKA) similarity across different model layers when trained on diverse datasets. Furthermore, we analyze the information leakage present in the existing benchmark and propose a new and more challenging benchmark to rationally evaluate the performance of different methods. Comprehensive experiments showcase a significant performance improvement of our method compared to existing state-of-the-art methods.
