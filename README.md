@@ -1,6 +1,6 @@
 # HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model (ACL 2025 Main)
 
-[![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/HaiyangGuo/UCIT)  [![📑 Paper (arXiv:2501.06598)](https://img.shields.io/badge/arXiv-2503.12941-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12941)
+[![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/HaiyangGuo/UCIT)  [![📑 Paper (arXiv:2503.12941)](https://img.shields.io/badge/arXiv-2503.12941-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12941)
 
 This repo is the official implementation of ACL 2025 paper: **[HiDe-LLaVA: Hierarchical Decoupling for Continual Instruction Tuning of Multimodal Large Language Model](https://arxiv.org/abs/2503.12941)**
 
@@ -38,7 +38,7 @@ pip install nltk==3.9.1
 pip install pycocotools==2.0.8
 pip install pycocoevalcap==1.2
 ```
-We recommend replacing the eval.py file under that path `/envs/coin/lib/python3.10/site-packages/pycocoevalcap/` in your environment with the eval.py file that we have provided in the repository to avoid unwanted error reporting and time overhead.
+We recommend replacing the eval.py file under that path `/envs/hide/lib/python3.10/site-packages/pycocoevalcap/` in your environment with the eval.py file that we have provided in the repository to avoid unwanted error reporting and time overhead.
 
 
 Technical issues can be reported and addressed through the official GitHub issue trackers for both projects: [CoIN](https://github.com/zackschen/CoIN) and [LLaVA](https://github.com/haotian-liu/LLaVA).
